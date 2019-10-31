@@ -28,6 +28,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
@@ -43,6 +44,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
@@ -59,6 +61,8 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+
+
       )
     } else if(this.state.activeTab === 1) {
       return (
@@ -73,7 +77,11 @@ class Projects extends Component {
         <div><h1>This is MongoDB</h1></div>
       )
     }
+
   }
+
+
+
   render() {
     return(
       <div>
@@ -83,13 +91,18 @@ class Projects extends Component {
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
+
+
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
+
+
       </div>
     )
   }
 }
+
 export default Projects;
