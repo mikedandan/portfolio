@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import logo from '../../src/images/md_avatar.png';
 
 class Landing extends Component {
   render() {
@@ -8,12 +8,12 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
+            {/* <img
               src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
               alt="avatar"
               className="avatar-img"
-              />
-
+              /> */}
+<img className="img-responsive" src={logo} alt="logo" style={{height: '300px'}}/>
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 

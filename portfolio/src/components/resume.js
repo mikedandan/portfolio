@@ -3,6 +3,8 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import logo from '../../src/images/md_avatar3.png';
+
 
 
 class Resume extends Component {
@@ -12,11 +14,12 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              {/* <img
+                src="/public/images/md_avatar.png"
                 alt="avatar"
                 style={{height: '200px'}}
-                 />
+                 /> */}
+                 <img className="img-responsive" src={logo} alt="logo" style={{height: '200px'}}/>
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Mike Dandan</h2>
