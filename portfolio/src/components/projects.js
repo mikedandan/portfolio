@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Img } from 'react-mdl';
-import Image from '../../src/images/md_avatar.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -15,7 +14,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://raw.githubusercontent.com/mikedandan/portfolio/master/portfolio/src/images/middlegrounds.png) center / cover' }} >React Project #1</CardTitle>
+            <CardTitle style={{ color: '#000', height: '180px', background: 'url(https://raw.githubusercontent.com/mikedandan/portfolio/master/portfolio/src/images/middlegrounds2.png) center / cover' }} >MiddleGround</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
