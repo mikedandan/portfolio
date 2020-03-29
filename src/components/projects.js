@@ -46,7 +46,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#000', height: '180px', background: 'url(https://raw.githubusercontent.com/mikedandan/portfolio/master/portfolio/src/images/icebreakr.png) center / cover' }} >React Project #3</CardTitle>
+            <CardTitle style={{ color: '#000', height: '180px', background: 'url(https://raw.githubusercontent.com/mikedandan/portfolio/master/portfolio/src/images/icebreakr2.png) center / cover' }} >React Project #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
